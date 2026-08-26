@@ -52,8 +52,7 @@ missing_value_report(df)
 
 
 # Dealing with missing values
-df['Balance'] = df['Balance'].fillna(df['Balance'].mean(), inplace=True)
-
+df['Balance'] = df['Balance'].fillna(df['Balance'].mean())
 
 
 # Remove columns
